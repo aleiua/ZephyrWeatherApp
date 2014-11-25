@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD2E78D81A1CD38F009A9A4A /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2E78D71A1CD38F009A9A4A /* City.swift */; };
 		AD92E3671A1BDAEF00452440 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD92E3661A1BDAEF00452440 /* AppDelegate.swift */; };
 		AD92E3691A1BDAEF00452440 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD92E3681A1BDAEF00452440 /* MasterViewController.swift */; };
 		AD92E36B1A1BDAEF00452440 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD92E36A1A1BDAEF00452440 /* DetailViewController.swift */; };
@@ -14,6 +15,7 @@
 		AD92E3701A1BDAEF00452440 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD92E36F1A1BDAEF00452440 /* Images.xcassets */; };
 		AD92E3731A1BDAEF00452440 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD92E3711A1BDAEF00452440 /* LaunchScreen.xib */; };
 		AD92E37F1A1BDAEF00452440 /* ZephyrWeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD92E37E1A1BDAEF00452440 /* ZephyrWeatherAppTests.swift */; };
+		ADBCFB301A24A035008BB115 /* TraitOverrideSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBCFB2F1A24A035008BB115 /* TraitOverrideSplitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD2E78D71A1CD38F009A9A4A /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		AD92E3611A1BDAEF00452440 /* ZephyrWeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZephyrWeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD92E3651A1BDAEF00452440 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD92E3661A1BDAEF00452440 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +41,7 @@
 		AD92E3781A1BDAEF00452440 /* ZephyrWeatherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZephyrWeatherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD92E37D1A1BDAEF00452440 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD92E37E1A1BDAEF00452440 /* ZephyrWeatherAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZephyrWeatherAppTests.swift; sourceTree = "<group>"; };
+		ADBCFB2F1A24A035008BB115 /* TraitOverrideSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TraitOverrideSplitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +85,9 @@
 			children = (
 				AD92E3661A1BDAEF00452440 /* AppDelegate.swift */,
 				AD92E3681A1BDAEF00452440 /* MasterViewController.swift */,
+				ADBCFB2F1A24A035008BB115 /* TraitOverrideSplitViewController.swift */,
 				AD92E36A1A1BDAEF00452440 /* DetailViewController.swift */,
+				AD2E78D71A1CD38F009A9A4A /* City.swift */,
 				AD92E36C1A1BDAEF00452440 /* Main.storyboard */,
 				AD92E36F1A1BDAEF00452440 /* Images.xcassets */,
 				AD92E3711A1BDAEF00452440 /* LaunchScreen.xib */,
@@ -217,6 +223,8 @@
 			files = (
 				AD92E36B1A1BDAEF00452440 /* DetailViewController.swift in Sources */,
 				AD92E3691A1BDAEF00452440 /* MasterViewController.swift in Sources */,
+				AD2E78D81A1CD38F009A9A4A /* City.swift in Sources */,
+				ADBCFB301A24A035008BB115 /* TraitOverrideSplitViewController.swift in Sources */,
 				AD92E3671A1BDAEF00452440 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +351,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZephyrWeatherApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZephyrWeatherApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -411,6 +421,7 @@
 				AD92E3841A1BDAEF00452440 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD92E3851A1BDAEF00452440 /* Build configuration list for PBXNativeTarget "ZephyrWeatherAppTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +430,7 @@
 				AD92E3871A1BDAEF00452440 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
